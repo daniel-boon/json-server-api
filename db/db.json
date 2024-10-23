@@ -44,6 +44,20 @@
         "location": "Tanzania",
         "animals": ["Lion", "Hyena"]
       }
+    ],
+    "zooInfo2": [
+      {
+        "zooId": 1,
+        "name": "Nairobi National Park",
+        "location": "Kenya",
+        "animals": ["Lion", "Elephant", "Hyena"]
+      },
+      {
+        "zooId": 2,
+        "name": "Serengeti National Park",
+        "location": "Tanzania",
+        "animals": ["Lion", "Hyena"]
+      }
     ]
   }
   

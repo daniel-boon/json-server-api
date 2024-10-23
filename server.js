@@ -15,8 +15,8 @@ server.use(middlewares);
 server.use(
   jsonServer.rewriter({
     "/api/*": "/$1",        // Keeps the API path if needed
-    "/wildlife": "/animals",  // Renames /animals to /wildlife
-    "/zoo-info": "/zooInfo"   // New endpoint for zoo info
+    // "/wildlife": "/animals",  // Renames /animals to /wildlife
+    // "/zoo-info": "/zooInfo"   // New endpoint for zoo info
   })
 );
 
