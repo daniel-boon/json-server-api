@@ -1,34 +1,6105 @@
 {
-    "animals": [
+    "lines": [
       {
-        "id": 1,
-        "name": "Lion",
-        "age": 32,
-        "type": "Carnivorer",
-        "national parks": [
-          "Nairobi",
-          "Serengeti"
+        "id": "Line-1729672474750",
+        "name": "Line-434"
+      }
+    ],
+    "models": [
+      {
+        "id": "c1729672526663",
+        "name": "IPad Pro M2",
+        "lineId": "Line-1729672474750"
+      }
+    ],
+    "parts": [
+      {
+        "id": "1",
+        "name": "PART-XXXX-1",
+        "itemName": "Tank Header",
+        "dieNo": "DIE-XXXX-1",
+        "lineId": "1",
+        "dimensions": [
+          {
+            "id": "1",
+            "name": "Header to Header"
+          },
+          {
+            "id": "2",
+            "name": "Sep. Top Height"
+          },
+          {
+            "id": "3",
+            "name": "Sep. Btm Height"
+          },
+          {
+            "id": "4",
+            "name": "Tank Assy Height"
+          },
+          {
+            "id": "5",
+            "name": "Wiring Thickness"
+          },
+          {
+            "id": "6",
+            "name": "Wiring Position"
+          }
         ]
       },
       {
-        "id": 2,
-        "name": "Elephant",
-        "age": 20,
-        "type": "Herbivorers",
-        "national parks": [
-          "Nairobi",
-          "Massai Mara"
+        "id": "2",
+        "name": "PART-XXXX-2",
+        "itemName": "Tank Footer",
+        "dieNo": "DIE-XXXX-2",
+        "lineId": "1",
+        "dimensions": [
+          {
+            "id": "1",
+            "name": "Header to Header"
+          },
+          {
+            "id": "2",
+            "name": "Sep. Top Height"
+          },
+          {
+            "id": "3",
+            "name": "Sep. Btm Height"
+          },
+          {
+            "id": "4",
+            "name": "Tank Assy Height"
+          },
+          {
+            "id": "5",
+            "name": "Wiring Thickness"
+          },
+          {
+            "id": "6",
+            "name": "Wiring Position"
+          }
         ]
       },
       {
-        "name": "Hyena",
-        "age": 10,
-        "type": "Carnivorer",
-        "national parks": [
-          "Nairobi",
-          "Serengeti"
-        ],
-        "id": 3
+        "id": "3",
+        "name": "PART-XXXX-3",
+        "dieNo": "DIE-XXXX-3",
+        "itemName": "Door",
+        "lineId": "1",
+        "dimensions": [
+          {
+            "id": "1",
+            "name": "Header to Header"
+          },
+          {
+            "id": "2",
+            "name": "Sep. Top Height"
+          },
+          {
+            "id": "3",
+            "name": "Sep. Btm Height"
+          },
+          {
+            "id": "4",
+            "name": "Tank Assy Height"
+          },
+          {
+            "id": "5",
+            "name": "Wiring Thickness"
+          },
+          {
+            "id": "6",
+            "name": "Wiring Position"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "PART-XXXX-4",
+        "dieNo": "DIE-XXXX-4",
+        "itemName": "Mockup Tank",
+        "lineId": "1",
+        "dimensions": [
+          {
+            "id": "1",
+            "name": "Header to Header"
+          },
+          {
+            "id": "2",
+            "name": "Sep. Top Height"
+          },
+          {
+            "id": "3",
+            "name": "Sep. Btm Height"
+          },
+          {
+            "id": "4",
+            "name": "Tank Assy Height"
+          },
+          {
+            "id": "5",
+            "name": "Wiring Thickness"
+          },
+          {
+            "id": "6",
+            "name": "Wiring Position"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "PART-XXXX-5",
+        "dieNo": "DIE-XXXX-5",
+        "itemName": "Window",
+        "lineId": "1",
+        "dimensions": [
+          {
+            "id": "1",
+            "name": "Header to Header"
+          },
+          {
+            "id": "2",
+            "name": "Sep. Top Height"
+          },
+          {
+            "id": "3",
+            "name": "Sep. Btm Height"
+          },
+          {
+            "id": "4",
+            "name": "Tank Assy Height"
+          },
+          {
+            "id": "5",
+            "name": "Wiring Thickness"
+          },
+          {
+            "id": "6",
+            "name": "Wiring Position"
+          }
+        ]
+      }
+    ],
+    "defect-logs": [
+      {
+        "id": "5",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 692",
+        "action": "Action 692",
+        "due": "2024-10-20T13:45:17.519Z",
+        "pic": "PIC 692",
+        "timestamp": 1729431917519
+      },
+      {
+        "id": "6",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 153",
+        "action": "Action 153",
+        "due": "2024-10-20T13:50:48.798Z",
+        "pic": "PIC 153",
+        "timestamp": 1729432248798
+      },
+      {
+        "id": "7",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 361",
+        "action": "Action 361",
+        "due": "2024-10-21T18:52:46.335Z",
+        "pic": "PIC 361",
+        "timestamp": 1729536766335
+      }
+    ],
+    "defect-ratio": [
+      {
+        "id": "1",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 10,
+        "total": 100,
+        "ratio": 0.1,
+        "std": 0.2,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "2",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 0,
+        "total": 100,
+        "ratio": 0,
+        "std": 0.2,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "3",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 4,
+        "total": 100,
+        "ratio": 0.04,
+        "std": 0.2,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "4",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 12,
+        "total": 100,
+        "ratio": 0.12,
+        "std": 0.2,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "5",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 21,
+        "total": 100,
+        "ratio": 0.21,
+        "std": 0.2,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "6",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 0,
+        "total": 100,
+        "ratio": 0,
+        "std": 0.2,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "7",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 0,
+        "total": 100,
+        "ratio": 0,
+        "std": 0.2,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "8",
+        "lineId": "1",
+        "modelId": "1",
+        "createdAt": "2024-10-20T13:12:10.077Z",
+        "quantity": 12,
+        "total": 29,
+        "ratio": 0.41,
+        "std": 0.2,
+        "timestamp": 1729429930077
+      },
+      {
+        "id": "9",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 11,
+        "total": 20,
+        "ratio": 0.55,
+        "std": 0.2,
+        "createdAt": "2024-10-20T13:12:12.936Z",
+        "timestamp": 1729429932936
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 14,
+        "total": 73,
+        "ratio": 0.19,
+        "std": 0.2,
+        "createdAt": "2024-10-20T13:12:13.932Z",
+        "timestamp": 1729429933932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 14,
+        "total": 68,
+        "ratio": 0.21,
+        "std": 0.2,
+        "createdAt": "2024-10-21T13:12:13.932Z",
+        "timestamp": 1729516333932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 10,
+        "total": 13,
+        "ratio": 0.77,
+        "std": 0.2,
+        "createdAt": "2024-10-21T13:12:13.932Z",
+        "timestamp": 1729516333932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 4,
+        "total": 17,
+        "ratio": 0.24,
+        "std": 0.2,
+        "createdAt": "2024-10-21T13:12:13.932Z",
+        "timestamp": 1729516333932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 0,
+        "total": 53,
+        "ratio": 0,
+        "std": 0.2,
+        "createdAt": "2024-10-21T13:12:13.932Z",
+        "timestamp": 1729516333932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 19,
+        "total": 90,
+        "ratio": 0.21,
+        "std": 0.2,
+        "createdAt": "2024-10-22T13:12:13.932Z",
+        "timestamp": 1729602733932
+      },
+      {
+        "id": "1729517898021",
+        "lineId": "1",
+        "modelId": "1",
+        "createdAt": "2024-10-21T13:38:11.795Z",
+        "quantity": 9,
+        "total": 78,
+        "ratio": 0.12,
+        "std": 0.2,
+        "timestamp": 1729517891795
+      },
+      {
+        "id": "1729536585503",
+        "lineId": "1",
+        "modelId": "1",
+        "createdAt": "2024-10-21T18:49:40.937Z",
+        "quantity": 0,
+        "total": 73,
+        "ratio": 0,
+        "std": 0.2,
+        "timestamp": 1729536580937
+      },
+      {
+        "id": "1729537279757",
+        "lineId": "1",
+        "modelId": "1",
+        "createdAt": "2024-10-21T19:01:16.670Z",
+        "quantity": 7,
+        "total": 98,
+        "ratio": 0.07,
+        "std": 0.2,
+        "timestamp": 1729537276670
+      }
+    ],
+    "trend-controls": [
+      {
+        "id": "11",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "12",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "13",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "14",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "15",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "16",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "17",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "21",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "22",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "23",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "24",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "25",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "26",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "27",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "31",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "32",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "33",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "34",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "35",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "36",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "37",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "41",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "42",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "43",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "44",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "45",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "46",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "47",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "51",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "52",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "53",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "54",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "55",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "56",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "57",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "61",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "62",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "63",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "64",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "65",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "66",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "67",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "1729517982672",
+        "lineId": "1",
+        "modelId": "1",
+        "partId": "1",
+        "createdAt": "2024-10-21T13:39:35.781Z",
+        "value": 91,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "timestamp": 1729517975781
+      },
+      {
+        "id": "1729536615302",
+        "lineId": "1",
+        "modelId": "1",
+        "partId": "2",
+        "createdAt": "2024-10-21T18:50:03.842Z",
+        "value": 9,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "timestamp": 1729536603842
+      },
+      {
+        "id": "1729537291347",
+        "lineId": "1",
+        "modelId": "1",
+        "partId": "1",
+        "createdAt": "2024-10-21T19:01:25.632Z",
+        "value": 57,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "timestamp": 1729537285632
+      }
+    ],
+    "quality-trend-logs": [
+      {
+        "id": "5",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 692",
+        "action": "Action 692",
+        "due": "2024-10-20T13:45:17.519Z",
+        "pic": "PIC 692",
+        "timestamp": 1729431917519
+      },
+      {
+        "id": "6",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 555",
+        "action": "Action 153",
+        "due": "2024-10-20T13:50:48.798Z",
+        "pic": "PIC 153",
+        "timestamp": 1729432248798
+      },
+      {
+        "id": "7",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 963",
+        "action": "Action 963",
+        "due": "2024-10-21T18:56:06.069Z",
+        "pic": "PIC 963",
+        "timestamp": 1729536966069
+      },
+      {
+        "id": "8",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 284",
+        "action": "Action 284",
+        "due": "2024-10-21T19:00:01.543Z",
+        "pic": "PIC 284",
+        "timestamp": 1729537201543
+      }
+    ],
+    "quality-trend-ratio": [
+      {
+        "id": "1",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 10,
+        "total": 100,
+        "ratio": 0.1,
+        "std": 0.2,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "2",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 0,
+        "total": 100,
+        "ratio": 0,
+        "std": 0.2,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "3",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 4,
+        "total": 100,
+        "ratio": 0.04,
+        "std": 0.2,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "4",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 12,
+        "total": 100,
+        "ratio": 0.12,
+        "std": 0.2,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "5",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 21,
+        "total": 100,
+        "ratio": 0.21,
+        "std": 0.2,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "6",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 0,
+        "total": 100,
+        "ratio": 0,
+        "std": 0.2,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "7",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 0,
+        "total": 100,
+        "ratio": 0,
+        "std": 0.2,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "8",
+        "lineId": "1",
+        "modelId": "1",
+        "createdAt": "2024-10-20T13:12:10.077Z",
+        "quantity": 12,
+        "total": 29,
+        "ratio": 0.41,
+        "std": 0.2,
+        "timestamp": 1729429930077
+      },
+      {
+        "id": "9",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 11,
+        "total": 20,
+        "ratio": 0.55,
+        "std": 0.2,
+        "createdAt": "2024-10-20T13:12:12.936Z",
+        "timestamp": 1729429932936
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 14,
+        "total": 73,
+        "ratio": 0.19,
+        "std": 0.2,
+        "createdAt": "2024-10-20T13:12:13.932Z",
+        "timestamp": 1729429933932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 14,
+        "total": 68,
+        "ratio": 0.21,
+        "std": 0.2,
+        "createdAt": "2024-10-21T13:12:13.932Z",
+        "timestamp": 1729516333932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 10,
+        "total": 13,
+        "ratio": 0.77,
+        "std": 0.2,
+        "createdAt": "2024-10-21T13:12:13.932Z",
+        "timestamp": 1729516333932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 4,
+        "total": 17,
+        "ratio": 0.24,
+        "std": 0.2,
+        "createdAt": "2024-10-21T13:12:13.932Z",
+        "timestamp": 1729516333932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 0,
+        "total": 53,
+        "ratio": 0,
+        "std": 0.2,
+        "createdAt": "2024-10-21T13:12:13.932Z",
+        "timestamp": 1729516333932
+      },
+      {
+        "id": "10",
+        "modelId": "1",
+        "lineId": "1",
+        "quantity": 19,
+        "total": 90,
+        "ratio": 0.21,
+        "std": 0.2,
+        "createdAt": "2024-10-22T13:12:13.932Z",
+        "timestamp": 1729602733932
+      },
+      {
+        "id": "1729517898021",
+        "lineId": "1",
+        "modelId": "1",
+        "createdAt": "2024-10-21T13:38:11.795Z",
+        "quantity": 9,
+        "total": 78,
+        "ratio": 0.12,
+        "std": 0.2,
+        "timestamp": 1729517891795
+      },
+      {
+        "id": "1729536669447",
+        "lineId": "1",
+        "modelId": "1",
+        "createdAt": "2024-10-21T18:51:06.387Z",
+        "quantity": 11,
+        "total": 33,
+        "ratio": 0.33,
+        "std": 0.2,
+        "timestamp": 1729536666387
+      },
+      {
+        "id": "1729537235908",
+        "lineId": "1",
+        "modelId": "1",
+        "createdAt": "2024-10-21T19:00:33.880Z",
+        "quantity": 18,
+        "total": 85,
+        "ratio": 0.21,
+        "std": 0.2,
+        "timestamp": 1729537233880
+      }
+    ],
+    "quality-trend-controls": [
+      {
+        "id": "11",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "12",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "13",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "14",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "15",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "16",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "17",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "1",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "21",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "22",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "23",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "24",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "25",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "26",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "27",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "2",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "31",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "32",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "33",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "34",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "35",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "36",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "37",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "3",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "41",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "42",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "43",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "44",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "45",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "46",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "47",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "4",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "51",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "52",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "53",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "54",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "55",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "56",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "57",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "5",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "61",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-10T13:35:35.048Z",
+        "timestamp": 1728567335048
+      },
+      {
+        "id": "62",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-11T13:35:35.048Z",
+        "timestamp": 1728653735048
+      },
+      {
+        "id": "63",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 84,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-12T13:35:35.048Z",
+        "timestamp": 1728740135048
+      },
+      {
+        "id": "64",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 21,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-13T13:35:35.048Z",
+        "timestamp": 1728826535048
+      },
+      {
+        "id": "65",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 60,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-14T13:35:35.048Z",
+        "timestamp": 1728912935048
+      },
+      {
+        "id": "66",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 30,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-15T13:35:35.048Z",
+        "timestamp": 1728999335048
+      },
+      {
+        "id": "67",
+        "modelId": "1",
+        "lineId": "1",
+        "partId": "6",
+        "value": 50,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "createdAt": "2024-10-16T13:35:35.048Z",
+        "timestamp": 1729085735048
+      },
+      {
+        "id": "1729517982672",
+        "lineId": "1",
+        "modelId": "1",
+        "partId": "1",
+        "createdAt": "2024-10-21T13:39:35.781Z",
+        "value": 91,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "timestamp": 1729517975781
+      },
+      {
+        "id": "1729536678848",
+        "lineId": "1",
+        "modelId": "1",
+        "partId": "2",
+        "createdAt": "2024-10-21T18:51:11.255Z",
+        "value": 70,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "timestamp": 1729536671255
+      },
+      {
+        "id": "1729537249534",
+        "lineId": "1",
+        "modelId": "1",
+        "partId": "3",
+        "createdAt": "2024-10-21T19:00:41.886Z",
+        "value": 107,
+        "upperLimit": 100,
+        "upperWarning": 90,
+        "lowerWarning": 10,
+        "lowerLimit": 0,
+        "timestamp": 1729537241886
+      }
+    ],
+    "bottle-necks-realtime": [
+      {
+        "id": "c1729679144660",
+        "line": "Line-1729672474750",
+        "modelId": "c1729672526663",
+        "manPowers": [
+          {
+            "mpid": 2,
+            "targetTime": 56,
+            "histories": [
+              {
+                "frequency": 48,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T06:25:44.632Z"
+              },
+              {
+                "frequency": 33,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T04:25:44.633Z"
+              },
+              {
+                "frequency": 69,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T19:25:44.633Z"
+              },
+              {
+                "frequency": 63,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T05:25:44.633Z"
+              },
+              {
+                "frequency": 33,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T12:25:44.633Z"
+              },
+              {
+                "frequency": 53,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T23:25:44.633Z"
+              },
+              {
+                "frequency": 31,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T16:25:44.633Z"
+              },
+              {
+                "frequency": 75,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T06:25:44.633Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T04:25:44.633Z"
+              },
+              {
+                "frequency": 88,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T19:25:44.633Z"
+              },
+              {
+                "frequency": 25,
+                "timeSpent": 27,
+                "timestamp": "2024-10-22T13:25:44.633Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T01:25:44.633Z"
+              },
+              {
+                "frequency": 36,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T21:25:44.633Z"
+              },
+              {
+                "frequency": 52,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T14:25:44.633Z"
+              },
+              {
+                "frequency": 54,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T15:25:44.633Z"
+              },
+              {
+                "frequency": 87,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T00:25:44.633Z"
+              },
+              {
+                "frequency": 81,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T16:25:44.633Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T12:25:44.633Z"
+              },
+              {
+                "frequency": 61,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T19:25:44.633Z"
+              },
+              {
+                "frequency": 27,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 65,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T07:25:44.633Z"
+              },
+              {
+                "frequency": 28,
+                "timeSpent": 27,
+                "timestamp": "2024-10-22T13:25:44.633Z"
+              },
+              {
+                "frequency": 60,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T16:25:44.633Z"
+              },
+              {
+                "frequency": 79,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T11:25:44.633Z"
+              },
+              {
+                "frequency": 47,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T10:25:44.633Z"
+              },
+              {
+                "frequency": 24,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 46,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T18:25:44.633Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 86,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T17:25:44.633Z"
+              },
+              {
+                "frequency": 35,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T03:25:44.633Z"
+              },
+              {
+                "frequency": 84,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T03:25:44.633Z"
+              },
+              {
+                "frequency": 26,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T07:25:44.633Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T12:25:44.633Z"
+              },
+              {
+                "frequency": 86,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T16:25:44.633Z"
+              },
+              {
+                "frequency": 73,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T12:25:44.633Z"
+              },
+              {
+                "frequency": 70,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T19:25:44.633Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T21:25:44.633Z"
+              },
+              {
+                "frequency": 35,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T19:25:44.633Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T17:25:44.633Z"
+              },
+              {
+                "frequency": 62,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T14:25:44.633Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T03:25:44.633Z"
+              },
+              {
+                "frequency": 76,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T16:25:44.633Z"
+              },
+              {
+                "frequency": 82,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T09:25:44.633Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T00:25:44.633Z"
+              },
+              {
+                "frequency": 74,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T07:25:44.633Z"
+              },
+              {
+                "frequency": 38,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T18:25:44.633Z"
+              },
+              {
+                "frequency": 73,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T07:25:44.633Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T18:25:44.633Z"
+              },
+              {
+                "frequency": 31,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T04:25:44.633Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T00:25:44.633Z"
+              },
+              {
+                "frequency": 89,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T19:25:44.633Z"
+              },
+              {
+                "frequency": 88,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T00:25:44.633Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T00:25:44.633Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T19:25:44.633Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T09:25:44.633Z"
+              },
+              {
+                "frequency": 63,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T06:25:44.633Z"
+              },
+              {
+                "frequency": 65,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 69,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T23:25:44.633Z"
+              },
+              {
+                "frequency": 80,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T12:25:44.633Z"
+              },
+              {
+                "frequency": 36,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T12:25:44.633Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 24,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T13:25:44.633Z"
+              },
+              {
+                "frequency": 33,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T00:25:44.633Z"
+              },
+              {
+                "frequency": 56,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T03:25:44.633Z"
+              },
+              {
+                "frequency": 76,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T21:25:44.633Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T07:25:44.633Z"
+              },
+              {
+                "frequency": 81,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T07:25:44.633Z"
+              },
+              {
+                "frequency": 87,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T05:25:44.633Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T02:25:44.633Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 17,
+                "timestamp": "2024-10-23T06:25:44.633Z"
+              },
+              {
+                "frequency": 53,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T15:25:44.633Z"
+              },
+              {
+                "frequency": 88,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T01:25:44.633Z"
+              },
+              {
+                "frequency": 42,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 82,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T12:25:44.633Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T16:25:44.633Z"
+              },
+              {
+                "frequency": 41,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T11:25:44.633Z"
+              },
+              {
+                "frequency": 77,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T05:25:44.633Z"
+              },
+              {
+                "frequency": 31,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T13:25:44.633Z"
+              },
+              {
+                "frequency": 62,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T14:25:44.633Z"
+              },
+              {
+                "frequency": 67,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T20:25:44.633Z"
+              },
+              {
+                "frequency": 27,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T16:25:44.633Z"
+              },
+              {
+                "frequency": 24,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T02:25:44.633Z"
+              },
+              {
+                "frequency": 87,
+                "timeSpent": 24,
+                "timestamp": "2024-10-23T01:25:44.633Z"
+              },
+              {
+                "frequency": 57,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T05:25:44.633Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 27,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 65,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T01:25:44.633Z"
+              },
+              {
+                "frequency": 86,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T17:25:44.633Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T15:25:44.633Z"
+              },
+              {
+                "frequency": 42,
+                "timeSpent": 27,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 70,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T23:25:44.633Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T17:25:44.633Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T03:25:44.633Z"
+              },
+              {
+                "frequency": 57,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T11:25:44.633Z"
+              },
+              {
+                "frequency": 36,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T15:25:44.633Z"
+              },
+              {
+                "frequency": 84,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 84,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T20:25:44.633Z"
+              },
+              {
+                "frequency": 56,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T23:25:44.633Z"
+              },
+              {
+                "frequency": 26,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T15:25:44.633Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 17,
+                "timestamp": "2024-10-23T10:25:44.633Z"
+              },
+              {
+                "frequency": 67,
+                "timeSpent": 24,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 50,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T05:25:44.633Z"
+              },
+              {
+                "frequency": 25,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T15:25:44.633Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T14:25:44.633Z"
+              },
+              {
+                "frequency": 57,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T08:25:44.633Z"
+              },
+              {
+                "frequency": 72,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T06:25:44.633Z"
+              },
+              {
+                "frequency": 22,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T21:25:44.633Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T02:25:44.633Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T21:25:44.633Z"
+              },
+              {
+                "frequency": 86,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T09:25:44.633Z"
+              },
+              {
+                "frequency": 85,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T05:25:44.633Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T06:25:44.633Z"
+              },
+              {
+                "frequency": 87,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T13:25:44.633Z"
+              },
+              {
+                "frequency": 75,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T17:25:44.633Z"
+              },
+              {
+                "frequency": 63,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T04:25:44.633Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T00:25:44.633Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T11:25:44.633Z"
+              },
+              {
+                "frequency": 36,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T04:25:44.633Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T09:25:44.633Z"
+              },
+              {
+                "frequency": 35,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T10:25:44.633Z"
+              },
+              {
+                "frequency": 37,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T13:25:44.633Z"
+              },
+              {
+                "frequency": 56,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T15:25:44.633Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T02:25:44.633Z"
+              },
+              {
+                "frequency": 30,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T18:25:44.633Z"
+              },
+              {
+                "frequency": 78,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T02:25:44.633Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T11:25:44.633Z"
+              },
+              {
+                "frequency": 74,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 53,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 37,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T22:25:44.633Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T05:25:44.633Z"
+              },
+              {
+                "frequency": 50,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T14:25:44.633Z"
+              },
+              {
+                "frequency": 21,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T23:25:44.633Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T00:25:44.633Z"
+              },
+              {
+                "frequency": 77,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T01:25:44.633Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T12:25:44.633Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T01:25:44.633Z"
+              },
+              {
+                "frequency": 84,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T16:25:44.633Z"
+              }
+            ]
+          },
+          {
+            "mpid": 1,
+            "targetTime": 56,
+            "histories": [
+              {
+                "frequency": 91,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T19:25:50.015Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T03:25:50.015Z"
+              },
+              {
+                "frequency": 22,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T02:25:50.015Z"
+              },
+              {
+                "frequency": 37,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T00:25:50.015Z"
+              },
+              {
+                "frequency": 88,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T22:25:50.015Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T02:25:50.015Z"
+              },
+              {
+                "frequency": 52,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T23:25:50.015Z"
+              },
+              {
+                "frequency": 70,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T18:25:50.015Z"
+              },
+              {
+                "frequency": 61,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T22:25:50.015Z"
+              },
+              {
+                "frequency": 50,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T01:25:50.015Z"
+              },
+              {
+                "frequency": 45,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T20:25:50.015Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T13:25:50.015Z"
+              },
+              {
+                "frequency": 49,
+                "timeSpent": 17,
+                "timestamp": "2024-10-23T04:25:50.015Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 24,
+                "timestamp": "2024-10-23T02:25:50.015Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T15:25:50.015Z"
+              },
+              {
+                "frequency": 89,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T19:25:50.015Z"
+              },
+              {
+                "frequency": 39,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T22:25:50.015Z"
+              },
+              {
+                "frequency": 51,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T10:25:50.015Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 17,
+                "timestamp": "2024-10-23T09:25:50.015Z"
+              },
+              {
+                "frequency": 65,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T03:25:50.015Z"
+              },
+              {
+                "frequency": 21,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T21:25:50.015Z"
+              },
+              {
+                "frequency": 33,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T00:25:50.015Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T12:25:50.015Z"
+              },
+              {
+                "frequency": 90,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T15:25:50.015Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T12:25:50.015Z"
+              },
+              {
+                "frequency": 33,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T03:25:50.015Z"
+              },
+              {
+                "frequency": 82,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T08:25:50.015Z"
+              },
+              {
+                "frequency": 60,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T07:25:50.015Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T12:25:50.015Z"
+              },
+              {
+                "frequency": 78,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T15:25:50.015Z"
+              },
+              {
+                "frequency": 40,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T01:25:50.015Z"
+              },
+              {
+                "frequency": 77,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T23:25:50.015Z"
+              },
+              {
+                "frequency": 85,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T06:25:50.015Z"
+              },
+              {
+                "frequency": 74,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T00:25:50.015Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T03:25:50.015Z"
+              },
+              {
+                "frequency": 69,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T01:25:50.015Z"
+              },
+              {
+                "frequency": 39,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T17:25:50.015Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T04:25:50.015Z"
+              },
+              {
+                "frequency": 31,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T16:25:50.015Z"
+              },
+              {
+                "frequency": 86,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T04:25:50.015Z"
+              },
+              {
+                "frequency": 54,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T17:25:50.015Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T06:25:50.015Z"
+              },
+              {
+                "frequency": 89,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T19:25:50.015Z"
+              },
+              {
+                "frequency": 59,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T03:25:50.015Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T05:25:50.015Z"
+              },
+              {
+                "frequency": 62,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T01:25:50.015Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T20:25:50.015Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T15:25:50.015Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T20:25:50.015Z"
+              },
+              {
+                "frequency": 24,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T05:25:50.015Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T16:25:50.015Z"
+              },
+              {
+                "frequency": 71,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T10:25:50.015Z"
+              },
+              {
+                "frequency": 49,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T09:25:50.015Z"
+              },
+              {
+                "frequency": 70,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T11:25:50.015Z"
+              },
+              {
+                "frequency": 61,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T19:25:50.015Z"
+              },
+              {
+                "frequency": 63,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T04:25:50.015Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T17:25:50.015Z"
+              },
+              {
+                "frequency": 79,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T23:25:50.015Z"
+              },
+              {
+                "frequency": 66,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T02:25:50.015Z"
+              },
+              {
+                "frequency": 72,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T12:25:50.015Z"
+              },
+              {
+                "frequency": 65,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T01:25:50.015Z"
+              },
+              {
+                "frequency": 82,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T17:25:50.015Z"
+              },
+              {
+                "frequency": 44,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T20:25:50.015Z"
+              },
+              {
+                "frequency": 71,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T21:25:50.015Z"
+              },
+              {
+                "frequency": 22,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T11:25:50.015Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T01:25:50.015Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T19:25:50.015Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T17:25:50.015Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T19:25:50.015Z"
+              },
+              {
+                "frequency": 68,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T18:25:50.015Z"
+              },
+              {
+                "frequency": 26,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T07:25:50.015Z"
+              },
+              {
+                "frequency": 78,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T00:25:50.015Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T22:25:50.015Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 24,
+                "timestamp": "2024-10-23T03:25:50.015Z"
+              },
+              {
+                "frequency": 71,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T08:25:50.015Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T03:25:50.015Z"
+              },
+              {
+                "frequency": 72,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T09:25:50.015Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T13:25:50.015Z"
+              },
+              {
+                "frequency": 70,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T08:25:50.015Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T22:25:50.015Z"
+              },
+              {
+                "frequency": 36,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T03:25:50.015Z"
+              },
+              {
+                "frequency": 41,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T10:25:50.016Z"
+              },
+              {
+                "frequency": 60,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T04:25:50.016Z"
+              },
+              {
+                "frequency": 28,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T06:25:50.016Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T01:25:50.016Z"
+              },
+              {
+                "frequency": 59,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T19:25:50.016Z"
+              },
+              {
+                "frequency": 36,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T20:25:50.016Z"
+              },
+              {
+                "frequency": 52,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T19:25:50.016Z"
+              },
+              {
+                "frequency": 81,
+                "timeSpent": 24,
+                "timestamp": "2024-10-23T06:25:50.016Z"
+              },
+              {
+                "frequency": 26,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T08:25:50.016Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T01:25:50.016Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T16:25:50.016Z"
+              },
+              {
+                "frequency": 73,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T00:25:50.016Z"
+              },
+              {
+                "frequency": 64,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T13:25:50.016Z"
+              },
+              {
+                "frequency": 37,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T06:25:50.016Z"
+              },
+              {
+                "frequency": 71,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T19:25:50.016Z"
+              },
+              {
+                "frequency": 32,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T09:25:50.016Z"
+              },
+              {
+                "frequency": 53,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T15:25:50.016Z"
+              },
+              {
+                "frequency": 61,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T09:25:50.016Z"
+              },
+              {
+                "frequency": 22,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T02:25:50.016Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T01:25:50.016Z"
+              },
+              {
+                "frequency": 84,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T09:25:50.016Z"
+              },
+              {
+                "frequency": 76,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T05:25:50.016Z"
+              },
+              {
+                "frequency": 23,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T23:25:50.016Z"
+              },
+              {
+                "frequency": 24,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T23:25:50.016Z"
+              },
+              {
+                "frequency": 44,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T15:25:50.016Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T00:25:50.016Z"
+              },
+              {
+                "frequency": 50,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T13:25:50.016Z"
+              },
+              {
+                "frequency": 28,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T15:25:50.016Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T01:25:50.016Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T15:25:50.016Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T03:25:50.016Z"
+              },
+              {
+                "frequency": 81,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T04:25:50.016Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T17:25:50.016Z"
+              },
+              {
+                "frequency": 72,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T19:25:50.016Z"
+              },
+              {
+                "frequency": 67,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T06:25:50.016Z"
+              },
+              {
+                "frequency": 78,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T05:25:50.016Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T10:25:50.016Z"
+              },
+              {
+                "frequency": 75,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T20:25:50.016Z"
+              },
+              {
+                "frequency": 33,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T03:25:50.016Z"
+              },
+              {
+                "frequency": 61,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T23:25:50.016Z"
+              },
+              {
+                "frequency": 60,
+                "timeSpent": 24,
+                "timestamp": "2024-10-23T06:25:50.016Z"
+              },
+              {
+                "frequency": 72,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T13:25:50.016Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T06:25:50.016Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T03:25:50.016Z"
+              },
+              {
+                "frequency": 76,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T15:25:50.016Z"
+              },
+              {
+                "frequency": 69,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T18:25:50.016Z"
+              },
+              {
+                "frequency": 31,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T07:25:50.016Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 25,
+                "timestamp": "2024-10-22T16:25:50.016Z"
+              },
+              {
+                "frequency": 51,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T02:25:50.016Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T12:25:50.016Z"
+              },
+              {
+                "frequency": 90,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T20:25:50.016Z"
+              },
+              {
+                "frequency": 71,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T18:25:50.016Z"
+              },
+              {
+                "frequency": 68,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T18:25:50.016Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T04:25:50.016Z"
+              },
+              {
+                "frequency": 81,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T14:25:50.016Z"
+              },
+              {
+                "frequency": 40,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T10:25:50.016Z"
+              },
+              {
+                "frequency": 55,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T10:25:50.016Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T17:25:50.016Z"
+              },
+              {
+                "frequency": 88,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T23:25:50.016Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T16:25:50.016Z"
+              },
+              {
+                "frequency": 77,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T04:25:50.016Z"
+              },
+              {
+                "frequency": 28,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T09:25:50.016Z"
+              }
+            ]
+          },
+          {
+            "mpid": 3,
+            "targetTime": 56,
+            "histories": [
+              {
+                "frequency": 67,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T17:26:21.926Z"
+              },
+              {
+                "frequency": 38,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T01:26:21.927Z"
+              },
+              {
+                "frequency": 47,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T23:26:21.927Z"
+              },
+              {
+                "frequency": 83,
+                "timeSpent": 27,
+                "timestamp": "2024-10-22T14:26:21.927Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T22:26:21.927Z"
+              },
+              {
+                "frequency": 85,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T08:26:21.927Z"
+              },
+              {
+                "frequency": 89,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T19:26:21.927Z"
+              },
+              {
+                "frequency": 63,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T15:26:21.927Z"
+              },
+              {
+                "frequency": 69,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T12:26:21.927Z"
+              },
+              {
+                "frequency": 85,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T22:26:21.927Z"
+              },
+              {
+                "frequency": 21,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T10:26:21.927Z"
+              },
+              {
+                "frequency": 55,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T11:26:21.927Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T16:26:21.927Z"
+              },
+              {
+                "frequency": 55,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T11:26:21.927Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T17:26:21.927Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T11:26:21.927Z"
+              },
+              {
+                "frequency": 72,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 60,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T15:26:21.927Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T01:26:21.927Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T07:26:21.927Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T06:26:21.927Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T23:26:21.927Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T10:26:21.927Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T16:26:21.927Z"
+              },
+              {
+                "frequency": 75,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T10:26:21.927Z"
+              },
+              {
+                "frequency": 86,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T11:26:21.927Z"
+              },
+              {
+                "frequency": 83,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T17:26:21.927Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T09:26:21.927Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T04:26:21.927Z"
+              },
+              {
+                "frequency": 66,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 37,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T01:26:21.927Z"
+              },
+              {
+                "frequency": 41,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T19:26:21.927Z"
+              },
+              {
+                "frequency": 25,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T00:26:21.927Z"
+              },
+              {
+                "frequency": 57,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T13:26:21.927Z"
+              },
+              {
+                "frequency": 78,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T00:26:21.927Z"
+              },
+              {
+                "frequency": 37,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T23:26:21.927Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T10:26:21.927Z"
+              },
+              {
+                "frequency": 22,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T04:26:21.927Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T12:26:21.927Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T23:26:21.927Z"
+              },
+              {
+                "frequency": 60,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T09:26:21.927Z"
+              },
+              {
+                "frequency": 38,
+                "timeSpent": 17,
+                "timestamp": "2024-10-23T03:26:21.927Z"
+              },
+              {
+                "frequency": 50,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T19:26:21.927Z"
+              },
+              {
+                "frequency": 85,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T22:26:21.927Z"
+              },
+              {
+                "frequency": 53,
+                "timeSpent": 17,
+                "timestamp": "2024-10-22T13:26:21.927Z"
+              },
+              {
+                "frequency": 59,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T01:26:21.927Z"
+              },
+              {
+                "frequency": 37,
+                "timeSpent": 27,
+                "timestamp": "2024-10-22T11:26:21.927Z"
+              },
+              {
+                "frequency": 55,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T15:26:21.927Z"
+              },
+              {
+                "frequency": 37,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T00:26:21.927Z"
+              },
+              {
+                "frequency": 69,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T05:26:21.927Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 17,
+                "timestamp": "2024-10-23T04:26:21.927Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T03:26:21.927Z"
+              },
+              {
+                "frequency": 21,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T12:26:21.927Z"
+              },
+              {
+                "frequency": 79,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T05:26:21.927Z"
+              },
+              {
+                "frequency": 73,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T13:26:21.927Z"
+              },
+              {
+                "frequency": 49,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T16:26:21.927Z"
+              },
+              {
+                "frequency": 69,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T12:26:21.927Z"
+              },
+              {
+                "frequency": 24,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T15:26:21.927Z"
+              },
+              {
+                "frequency": 40,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T17:26:21.927Z"
+              },
+              {
+                "frequency": 70,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T07:26:21.927Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T00:26:21.927Z"
+              },
+              {
+                "frequency": 44,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T06:26:21.927Z"
+              },
+              {
+                "frequency": 32,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T10:26:21.927Z"
+              },
+              {
+                "frequency": 36,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T17:26:21.927Z"
+              },
+              {
+                "frequency": 69,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T00:26:21.927Z"
+              },
+              {
+                "frequency": 73,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 33,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T04:26:21.927Z"
+              },
+              {
+                "frequency": 77,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T16:26:21.927Z"
+              },
+              {
+                "frequency": 90,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T13:26:21.927Z"
+              },
+              {
+                "frequency": 88,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T00:26:21.927Z"
+              },
+              {
+                "frequency": 38,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T11:26:21.927Z"
+              },
+              {
+                "frequency": 75,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T01:26:21.927Z"
+              },
+              {
+                "frequency": 32,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T18:26:21.927Z"
+              },
+              {
+                "frequency": 27,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T01:26:21.927Z"
+              },
+              {
+                "frequency": 85,
+                "timeSpent": 24,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 32,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 71,
+                "timeSpent": 17,
+                "timestamp": "2024-10-23T01:26:21.927Z"
+              },
+              {
+                "frequency": 53,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 72,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T18:26:21.927Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T05:26:21.927Z"
+              },
+              {
+                "frequency": 63,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T19:26:21.927Z"
+              },
+              {
+                "frequency": 55,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T16:26:21.927Z"
+              },
+              {
+                "frequency": 74,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T19:26:21.927Z"
+              },
+              {
+                "frequency": 25,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T06:26:21.927Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T01:26:21.927Z"
+              },
+              {
+                "frequency": 67,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T14:26:21.927Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T05:26:21.927Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T14:26:21.927Z"
+              },
+              {
+                "frequency": 79,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T20:26:21.927Z"
+              },
+              {
+                "frequency": 38,
+                "timeSpent": 17,
+                "timestamp": "2024-10-23T03:26:21.927Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 29,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T19:26:21.927Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T03:26:21.927Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 28,
+                "timestamp": "2024-10-23T03:26:21.927Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 47,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T04:26:21.927Z"
+              },
+              {
+                "frequency": 57,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T23:26:21.927Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T13:26:21.927Z"
+              },
+              {
+                "frequency": 67,
+                "timeSpent": 22,
+                "timestamp": "2024-10-23T08:26:21.927Z"
+              },
+              {
+                "frequency": 70,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T17:26:21.927Z"
+              },
+              {
+                "frequency": 50,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T16:26:21.927Z"
+              },
+              {
+                "frequency": 23,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T23:26:21.927Z"
+              },
+              {
+                "frequency": 60,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T22:26:21.927Z"
+              },
+              {
+                "frequency": 45,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T18:26:21.927Z"
+              },
+              {
+                "frequency": 61,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T18:26:21.927Z"
+              },
+              {
+                "frequency": 39,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T23:26:21.927Z"
+              },
+              {
+                "frequency": 62,
+                "timeSpent": 22,
+                "timestamp": "2024-10-22T14:26:21.927Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T08:26:21.927Z"
+              },
+              {
+                "frequency": 67,
+                "timeSpent": 29,
+                "timestamp": "2024-10-22T13:26:21.927Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 83,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 46,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T20:26:21.927Z"
+              },
+              {
+                "frequency": 88,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T00:26:21.927Z"
+              },
+              {
+                "frequency": 21,
+                "timeSpent": 27,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 74,
+                "timeSpent": 25,
+                "timestamp": "2024-10-23T05:26:21.927Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T18:26:21.927Z"
+              },
+              {
+                "frequency": 43,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T20:26:21.927Z"
+              },
+              {
+                "frequency": 65,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 24,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 48,
+                "timeSpent": 23,
+                "timestamp": "2024-10-23T10:26:21.927Z"
+              },
+              {
+                "frequency": 67,
+                "timeSpent": 18,
+                "timestamp": "2024-10-23T09:26:21.927Z"
+              },
+              {
+                "frequency": 55,
+                "timeSpent": 26,
+                "timestamp": "2024-10-22T12:26:21.927Z"
+              },
+              {
+                "frequency": 90,
+                "timeSpent": 18,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 21,
+                "timestamp": "2024-10-22T16:26:21.927Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T11:26:21.927Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 24,
+                "timestamp": "2024-10-23T04:26:21.927Z"
+              },
+              {
+                "frequency": 34,
+                "timeSpent": 28,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 77,
+                "timeSpent": 16,
+                "timestamp": "2024-10-22T21:26:21.927Z"
+              },
+              {
+                "frequency": 46,
+                "timeSpent": 27,
+                "timestamp": "2024-10-22T18:26:21.927Z"
+              },
+              {
+                "frequency": 21,
+                "timeSpent": 27,
+                "timestamp": "2024-10-22T15:26:21.927Z"
+              },
+              {
+                "frequency": 31,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T02:26:21.927Z"
+              },
+              {
+                "frequency": 66,
+                "timeSpent": 26,
+                "timestamp": "2024-10-23T08:26:21.927Z"
+              },
+              {
+                "frequency": 53,
+                "timeSpent": 21,
+                "timestamp": "2024-10-23T03:26:21.927Z"
+              },
+              {
+                "frequency": 58,
+                "timeSpent": 24,
+                "timestamp": "2024-10-22T13:26:21.927Z"
+              },
+              {
+                "frequency": 40,
+                "timeSpent": 19,
+                "timestamp": "2024-10-22T17:26:21.927Z"
+              },
+              {
+                "frequency": 41,
+                "timeSpent": 16,
+                "timestamp": "2024-10-23T04:26:21.927Z"
+              },
+              {
+                "frequency": 81,
+                "timeSpent": 23,
+                "timestamp": "2024-10-22T20:26:21.927Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 19,
+                "timestamp": "2024-10-23T05:26:21.927Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 20,
+                "timestamp": "2024-10-23T00:26:21.927Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 20,
+                "timestamp": "2024-10-22T11:26:21.927Z"
+              },
+              {
+                "frequency": 38,
+                "timeSpent": 29,
+                "timestamp": "2024-10-23T03:26:21.927Z"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bottle-necks": [
+      {
+        "id": "c1729679134382",
+        "line": "Line-1729672474750",
+        "modelId": "c1729672526663",
+        "manPowers": [
+          {
+            "mpid": 1,
+            "targetTime": 26,
+            "histories": [
+              {
+                "frequency": 117,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T15:25:34.355Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T16:25:34.355Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 41,
+                "timestamp": "2024-10-23T06:25:34.356Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 53,
+                "timestamp": "2024-10-23T02:25:34.356Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 52,
+                "timestamp": "2024-10-23T00:25:34.356Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T23:25:34.356Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 49,
+                "timestamp": "2024-10-22T16:25:34.356Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 59,
+                "timestamp": "2024-10-22T11:25:34.356Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T14:25:34.356Z"
+              },
+              {
+                "frequency": 121,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T23:25:34.356Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 42,
+                "timestamp": "2024-10-23T09:25:34.356Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 41,
+                "timestamp": "2024-10-22T20:25:34.356Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T15:25:34.356Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 51,
+                "timestamp": "2024-10-23T03:25:34.356Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 51,
+                "timestamp": "2024-10-22T20:25:34.356Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 55,
+                "timestamp": "2024-10-23T09:25:34.356Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T10:25:34.356Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T09:25:34.356Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T14:25:34.356Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T14:25:34.356Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T21:25:34.356Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 52,
+                "timestamp": "2024-10-23T09:25:34.356Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 56,
+                "timestamp": "2024-10-23T09:25:34.356Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 61,
+                "timestamp": "2024-10-23T03:25:34.356Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 43,
+                "timestamp": "2024-10-23T00:25:34.356Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 61,
+                "timestamp": "2024-10-23T00:25:34.356Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 51,
+                "timestamp": "2024-10-23T00:25:34.356Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 62,
+                "timestamp": "2024-10-23T08:25:34.356Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 42,
+                "timestamp": "2024-10-23T09:25:34.356Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 62,
+                "timestamp": "2024-10-22T22:25:34.356Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 59,
+                "timestamp": "2024-10-23T02:25:34.356Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T12:25:34.356Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T14:25:34.356Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 47,
+                "timestamp": "2024-10-22T22:25:34.356Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 45,
+                "timestamp": "2024-10-22T17:25:34.356Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 55,
+                "timestamp": "2024-10-23T08:25:34.356Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 55,
+                "timestamp": "2024-10-23T01:25:34.356Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 59,
+                "timestamp": "2024-10-22T12:25:34.356Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 62,
+                "timestamp": "2024-10-23T01:25:34.356Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T22:25:34.356Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 49,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T23:25:34.356Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T01:25:34.356Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 64,
+                "timestamp": "2024-10-23T02:25:34.356Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 52,
+                "timestamp": "2024-10-22T19:25:34.356Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 52,
+                "timestamp": "2024-10-22T18:25:34.356Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 53,
+                "timestamp": "2024-10-22T23:25:34.356Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T12:25:34.356Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T18:25:34.356Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T15:25:34.356Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T22:25:34.356Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 52,
+                "timestamp": "2024-10-22T17:25:34.356Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T11:25:34.356Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 56,
+                "timestamp": "2024-10-23T04:25:34.356Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 41,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T04:25:34.356Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 62,
+                "timestamp": "2024-10-23T09:25:34.356Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T02:25:34.356Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T11:25:34.356Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T16:25:34.356Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 55,
+                "timestamp": "2024-10-23T02:25:34.356Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 52,
+                "timestamp": "2024-10-23T01:25:34.356Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 48,
+                "timestamp": "2024-10-22T17:25:34.356Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T10:25:34.356Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 56,
+                "timestamp": "2024-10-22T17:25:34.356Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 63,
+                "timestamp": "2024-10-23T08:25:34.356Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 42,
+                "timestamp": "2024-10-23T05:25:34.356Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T03:25:34.356Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 62,
+                "timestamp": "2024-10-23T00:25:34.356Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 45,
+                "timestamp": "2024-10-22T17:25:34.356Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T12:25:34.356Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T21:25:34.356Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T23:25:34.356Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 50,
+                "timestamp": "2024-10-22T22:25:34.356Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 47,
+                "timestamp": "2024-10-22T23:25:34.356Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 44,
+                "timestamp": "2024-10-22T16:25:34.356Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T14:25:34.356Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T18:25:34.356Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 51,
+                "timestamp": "2024-10-23T09:25:34.356Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 47,
+                "timestamp": "2024-10-22T14:25:34.356Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 52,
+                "timestamp": "2024-10-22T20:25:34.356Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T23:25:34.356Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 56,
+                "timestamp": "2024-10-22T22:25:34.356Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 41,
+                "timestamp": "2024-10-23T00:25:34.356Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T21:25:34.356Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T21:25:34.356Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 53,
+                "timestamp": "2024-10-23T07:25:34.356Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 65,
+                "timestamp": "2024-10-23T01:25:34.356Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T20:25:34.356Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 49,
+                "timestamp": "2024-10-23T08:25:34.356Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 60,
+                "timestamp": "2024-10-23T03:25:34.356Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 61,
+                "timestamp": "2024-10-23T03:25:34.356Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T23:25:34.356Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 42,
+                "timestamp": "2024-10-23T10:25:34.356Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 48,
+                "timestamp": "2024-10-23T10:25:34.356Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 44,
+                "timestamp": "2024-10-22T21:25:34.356Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T19:25:34.356Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 60,
+                "timestamp": "2024-10-23T06:25:34.356Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T14:25:34.356Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T06:25:34.356Z"
+              },
+              {
+                "frequency": 121,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 39,
+                "timestamp": "2024-10-22T17:25:34.356Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T17:25:34.356Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 53,
+                "timestamp": "2024-10-23T10:25:34.356Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 42,
+                "timestamp": "2024-10-23T02:25:34.356Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 63,
+                "timestamp": "2024-10-23T00:25:34.356Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T22:25:34.356Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 45,
+                "timestamp": "2024-10-22T15:25:34.356Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 53,
+                "timestamp": "2024-10-22T11:25:34.356Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T15:25:34.356Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T13:25:34.356Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 58,
+                "timestamp": "2024-10-23T05:25:34.356Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 40,
+                "timestamp": "2024-10-23T05:25:34.356Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 46,
+                "timestamp": "2024-10-23T03:25:34.356Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T11:25:34.356Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 45,
+                "timestamp": "2024-10-22T18:25:34.356Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 49,
+                "timestamp": "2024-10-22T12:25:34.356Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 58,
+                "timestamp": "2024-10-23T02:25:34.356Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T17:25:34.356Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T16:25:34.356Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 65,
+                "timestamp": "2024-10-23T06:25:34.356Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 40,
+                "timestamp": "2024-10-23T02:25:34.356Z"
+              }
+            ]
+          },
+          {
+            "mpid": 2,
+            "targetTime": 26,
+            "histories": [
+              {
+                "frequency": 116,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T09:25:52.030Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T19:25:52.030Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T15:25:52.030Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T11:25:52.030Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 56,
+                "timestamp": "2024-10-22T16:25:52.030Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 40,
+                "timestamp": "2024-10-23T09:25:52.030Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 62,
+                "timestamp": "2024-10-22T14:25:52.030Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T14:25:52.030Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T13:25:52.030Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 55,
+                "timestamp": "2024-10-23T10:25:52.030Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T00:25:52.030Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 48,
+                "timestamp": "2024-10-22T15:25:52.030Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T13:25:52.030Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T21:25:52.030Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 56,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 64,
+                "timestamp": "2024-10-23T04:25:52.030Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 51,
+                "timestamp": "2024-10-22T19:25:52.030Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 39,
+                "timestamp": "2024-10-22T19:25:52.030Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 39,
+                "timestamp": "2024-10-22T21:25:52.030Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 48,
+                "timestamp": "2024-10-23T10:25:52.030Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 47,
+                "timestamp": "2024-10-23T00:25:52.030Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T11:25:52.030Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 50,
+                "timestamp": "2024-10-23T00:25:52.030Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 48,
+                "timestamp": "2024-10-22T15:25:52.030Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 43,
+                "timestamp": "2024-10-23T02:25:52.030Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 47,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 54,
+                "timestamp": "2024-10-23T00:25:52.030Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 52,
+                "timestamp": "2024-10-23T00:25:52.030Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 62,
+                "timestamp": "2024-10-22T20:25:52.030Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 52,
+                "timestamp": "2024-10-22T23:25:52.030Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 56,
+                "timestamp": "2024-10-22T13:25:52.030Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 53,
+                "timestamp": "2024-10-22T21:25:52.030Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T07:25:52.030Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 65,
+                "timestamp": "2024-10-23T01:25:52.030Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T18:25:52.030Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T13:25:52.030Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T20:25:52.030Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 50,
+                "timestamp": "2024-10-23T05:25:52.030Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T13:25:52.030Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T15:25:52.030Z"
+              },
+              {
+                "frequency": 121,
+                "timeSpent": 48,
+                "timestamp": "2024-10-23T06:25:52.030Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T22:25:52.030Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T13:25:52.030Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 51,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 48,
+                "timestamp": "2024-10-22T16:25:52.030Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 50,
+                "timestamp": "2024-10-22T15:25:52.030Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T19:25:52.030Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T11:25:52.030Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T07:25:52.030Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T01:25:52.030Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T21:25:52.030Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 47,
+                "timestamp": "2024-10-23T07:25:52.030Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T00:25:52.030Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 42,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T02:25:52.030Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 49,
+                "timestamp": "2024-10-22T21:25:52.030Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 49,
+                "timestamp": "2024-10-23T07:25:52.030Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T17:25:52.030Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 63,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T11:25:52.030Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 59,
+                "timestamp": "2024-10-23T02:25:52.030Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 63,
+                "timestamp": "2024-10-23T06:25:52.030Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 59,
+                "timestamp": "2024-10-23T04:25:52.030Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T18:25:52.030Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 64,
+                "timestamp": "2024-10-23T03:25:52.030Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 39,
+                "timestamp": "2024-10-22T16:25:52.030Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 64,
+                "timestamp": "2024-10-23T01:25:52.030Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 54,
+                "timestamp": "2024-10-23T00:25:52.030Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 46,
+                "timestamp": "2024-10-23T02:25:52.030Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T17:25:52.030Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 46,
+                "timestamp": "2024-10-23T04:25:52.030Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 51,
+                "timestamp": "2024-10-22T17:25:52.030Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 64,
+                "timestamp": "2024-10-23T03:25:52.030Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 47,
+                "timestamp": "2024-10-22T16:25:52.030Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 53,
+                "timestamp": "2024-10-23T04:25:52.030Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 52,
+                "timestamp": "2024-10-22T18:25:52.030Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 53,
+                "timestamp": "2024-10-22T17:25:52.030Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T22:25:52.030Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 61,
+                "timestamp": "2024-10-22T16:25:52.030Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 52,
+                "timestamp": "2024-10-23T04:25:52.030Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 51,
+                "timestamp": "2024-10-22T11:25:52.030Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 51,
+                "timestamp": "2024-10-22T21:25:52.030Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 53,
+                "timestamp": "2024-10-23T09:25:52.030Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T15:25:52.030Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 53,
+                "timestamp": "2024-10-23T01:25:52.030Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T15:25:52.030Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 53,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T17:25:52.030Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 49,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 44,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 47,
+                "timestamp": "2024-10-22T19:25:52.030Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 48,
+                "timestamp": "2024-10-22T16:25:52.030Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T04:25:52.030Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 51,
+                "timestamp": "2024-10-23T06:25:52.030Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 51,
+                "timestamp": "2024-10-22T18:25:52.030Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 55,
+                "timestamp": "2024-10-23T04:25:52.030Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T05:25:52.030Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 50,
+                "timestamp": "2024-10-23T04:25:52.030Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 63,
+                "timestamp": "2024-10-23T07:25:52.030Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T22:25:52.030Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 43,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 50,
+                "timestamp": "2024-10-22T18:25:52.030Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T18:25:52.030Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T10:25:52.030Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 58,
+                "timestamp": "2024-10-23T03:25:52.030Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 52,
+                "timestamp": "2024-10-22T19:25:52.030Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 47,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 61,
+                "timestamp": "2024-10-22T16:25:52.030Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T13:25:52.030Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 61,
+                "timestamp": "2024-10-22T11:25:52.030Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 58,
+                "timestamp": "2024-10-22T13:25:52.030Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 50,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 64,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T15:25:52.030Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 61,
+                "timestamp": "2024-10-23T10:25:52.030Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T12:25:52.030Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T03:25:52.030Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T03:25:52.030Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T09:25:52.030Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T20:25:52.030Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 46,
+                "timestamp": "2024-10-23T00:25:52.030Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 54,
+                "timestamp": "2024-10-23T10:25:52.030Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 41,
+                "timestamp": "2024-10-22T21:25:52.030Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 44,
+                "timestamp": "2024-10-23T09:25:52.030Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 62,
+                "timestamp": "2024-10-23T08:25:52.030Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T03:25:52.030Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 47,
+                "timestamp": "2024-10-22T14:25:52.030Z"
+              }
+            ]
+          },
+          {
+            "mpid": 3,
+            "targetTime": 26,
+            "histories": [
+              {
+                "frequency": 108,
+                "timeSpent": 44,
+                "timestamp": "2024-10-22T18:26:20.270Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 63,
+                "timestamp": "2024-10-23T03:26:20.270Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 45,
+                "timestamp": "2024-10-22T14:26:20.270Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 60,
+                "timestamp": "2024-10-23T02:26:20.270Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T16:26:20.270Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 52,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 45,
+                "timestamp": "2024-10-22T16:26:20.270Z"
+              },
+              {
+                "frequency": 121,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 49,
+                "timestamp": "2024-10-23T10:26:20.270Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T14:26:20.270Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T13:26:20.270Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 47,
+                "timestamp": "2024-10-23T07:26:20.270Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 59,
+                "timestamp": "2024-10-23T04:26:20.270Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 58,
+                "timestamp": "2024-10-22T23:26:20.270Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 121,
+                "timeSpent": 45,
+                "timestamp": "2024-10-22T13:26:20.270Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T23:26:20.270Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T14:26:20.270Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T12:26:20.270Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 56,
+                "timestamp": "2024-10-23T05:26:20.270Z"
+              },
+              {
+                "frequency": 115,
+                "timeSpent": 51,
+                "timestamp": "2024-10-23T05:26:20.270Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 54,
+                "timestamp": "2024-10-23T04:26:20.270Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 41,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T17:26:20.270Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T14:26:20.270Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T15:26:20.270Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 62,
+                "timestamp": "2024-10-23T05:26:20.270Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 52,
+                "timestamp": "2024-10-23T01:26:20.270Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 50,
+                "timestamp": "2024-10-22T13:26:20.270Z"
+              },
+              {
+                "frequency": 99,
+                "timeSpent": 54,
+                "timestamp": "2024-10-23T06:26:20.270Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 41,
+                "timestamp": "2024-10-22T18:26:20.270Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 64,
+                "timestamp": "2024-10-23T01:26:20.270Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 63,
+                "timestamp": "2024-10-23T02:26:20.270Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T09:26:20.270Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T23:26:20.270Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T17:26:20.270Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 60,
+                "timestamp": "2024-10-22T14:26:20.270Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T16:26:20.270Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T01:26:20.270Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 55,
+                "timestamp": "2024-10-23T06:26:20.270Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 51,
+                "timestamp": "2024-10-22T23:26:20.270Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 61,
+                "timestamp": "2024-10-22T23:26:20.270Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 41,
+                "timestamp": "2024-10-22T14:26:20.270Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T03:26:20.270Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T15:26:20.270Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T19:26:20.270Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 48,
+                "timestamp": "2024-10-22T18:26:20.270Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 44,
+                "timestamp": "2024-10-22T18:26:20.270Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 44,
+                "timestamp": "2024-10-23T03:26:20.270Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 42,
+                "timestamp": "2024-10-23T08:26:20.270Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 41,
+                "timestamp": "2024-10-23T08:26:20.270Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 62,
+                "timestamp": "2024-10-22T16:26:20.270Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 41,
+                "timestamp": "2024-10-22T22:26:20.270Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 65,
+                "timestamp": "2024-10-23T06:26:20.270Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T21:26:20.270Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 58,
+                "timestamp": "2024-10-22T14:26:20.270Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T07:26:20.270Z"
+              },
+              {
+                "frequency": 107,
+                "timeSpent": 59,
+                "timestamp": "2024-10-23T07:26:20.270Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 113,
+                "timeSpent": 40,
+                "timestamp": "2024-10-23T07:26:20.270Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 48,
+                "timestamp": "2024-10-23T02:26:20.270Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T23:26:20.270Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T00:26:20.270Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 62,
+                "timestamp": "2024-10-22T18:26:20.270Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 40,
+                "timestamp": "2024-10-23T10:26:20.270Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 47,
+                "timestamp": "2024-10-22T19:26:20.270Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T13:26:20.270Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 43,
+                "timestamp": "2024-10-22T17:26:20.270Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 44,
+                "timestamp": "2024-10-23T08:26:20.270Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 43,
+                "timestamp": "2024-10-23T02:26:20.270Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 65,
+                "timestamp": "2024-10-22T21:26:20.270Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T16:26:20.270Z"
+              },
+              {
+                "frequency": 101,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T07:26:20.270Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 39,
+                "timestamp": "2024-10-23T03:26:20.270Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 51,
+                "timestamp": "2024-10-23T08:26:20.270Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 55,
+                "timestamp": "2024-10-23T02:26:20.270Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T02:26:20.270Z"
+              },
+              {
+                "frequency": 103,
+                "timeSpent": 41,
+                "timestamp": "2024-10-22T19:26:20.270Z"
+              },
+              {
+                "frequency": 104,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T21:26:20.270Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 44,
+                "timestamp": "2024-10-23T05:26:20.270Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T19:26:20.270Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 59,
+                "timestamp": "2024-10-22T16:26:20.270Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 45,
+                "timestamp": "2024-10-23T08:26:20.270Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 50,
+                "timestamp": "2024-10-23T02:26:20.270Z"
+              },
+              {
+                "frequency": 96,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T21:26:20.270Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 59,
+                "timestamp": "2024-10-23T03:26:20.270Z"
+              },
+              {
+                "frequency": 91,
+                "timeSpent": 45,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 112,
+                "timeSpent": 54,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 117,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T15:26:20.270Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 40,
+                "timestamp": "2024-10-23T01:26:20.270Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 39,
+                "timestamp": "2024-10-22T12:26:20.270Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 59,
+                "timestamp": "2024-10-23T00:26:20.270Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 56,
+                "timestamp": "2024-10-22T18:26:20.270Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 51,
+                "timestamp": "2024-10-22T18:26:20.270Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 62,
+                "timestamp": "2024-10-22T12:26:20.270Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 56,
+                "timestamp": "2024-10-22T23:26:20.270Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 61,
+                "timestamp": "2024-10-23T10:26:20.270Z"
+              },
+              {
+                "frequency": 120,
+                "timeSpent": 65,
+                "timestamp": "2024-10-23T06:26:20.270Z"
+              },
+              {
+                "frequency": 109,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T19:26:20.270Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 44,
+                "timestamp": "2024-10-23T01:26:20.270Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T12:26:20.270Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 58,
+                "timestamp": "2024-10-22T13:26:20.270Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T18:26:20.270Z"
+              },
+              {
+                "frequency": 108,
+                "timeSpent": 40,
+                "timestamp": "2024-10-22T17:26:20.270Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T22:26:20.270Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 58,
+                "timestamp": "2024-10-22T13:26:20.270Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 53,
+                "timestamp": "2024-10-23T10:26:20.270Z"
+              },
+              {
+                "frequency": 118,
+                "timeSpent": 61,
+                "timestamp": "2024-10-23T02:26:20.270Z"
+              },
+              {
+                "frequency": 95,
+                "timeSpent": 63,
+                "timestamp": "2024-10-22T13:26:20.270Z"
+              },
+              {
+                "frequency": 105,
+                "timeSpent": 53,
+                "timestamp": "2024-10-22T13:26:20.270Z"
+              },
+              {
+                "frequency": 98,
+                "timeSpent": 53,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 42,
+                "timestamp": "2024-10-22T11:26:20.270Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T21:26:20.270Z"
+              },
+              {
+                "frequency": 93,
+                "timeSpent": 61,
+                "timestamp": "2024-10-23T00:26:20.270Z"
+              },
+              {
+                "frequency": 100,
+                "timeSpent": 46,
+                "timestamp": "2024-10-22T14:26:20.270Z"
+              },
+              {
+                "frequency": 94,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T17:26:20.270Z"
+              },
+              {
+                "frequency": 110,
+                "timeSpent": 50,
+                "timestamp": "2024-10-22T17:26:20.270Z"
+              },
+              {
+                "frequency": 106,
+                "timeSpent": 49,
+                "timestamp": "2024-10-22T17:26:20.270Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 64,
+                "timestamp": "2024-10-22T17:26:20.270Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 53,
+                "timestamp": "2024-10-22T20:26:20.271Z"
+              },
+              {
+                "frequency": 102,
+                "timeSpent": 57,
+                "timestamp": "2024-10-23T00:26:20.271Z"
+              },
+              {
+                "frequency": 97,
+                "timeSpent": 57,
+                "timestamp": "2024-10-22T23:26:20.271Z"
+              },
+              {
+                "frequency": 111,
+                "timeSpent": 39,
+                "timestamp": "2024-10-22T11:26:20.271Z"
+              },
+              {
+                "frequency": 114,
+                "timeSpent": 61,
+                "timestamp": "2024-10-23T01:26:20.271Z"
+              },
+              {
+                "frequency": 92,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T21:26:20.271Z"
+              },
+              {
+                "frequency": 119,
+                "timeSpent": 55,
+                "timestamp": "2024-10-22T16:26:20.271Z"
+              },
+              {
+                "frequency": 116,
+                "timeSpent": 65,
+                "timestamp": "2024-10-23T00:26:20.271Z"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lost-items": [
+      {
+        "id": "3",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 250",
+        "action": "Action 250",
+        "due": "2024-10-20T13:31:10.804Z",
+        "pic": "PIC 250ฟกฟหกฟหกฟหกฟหกฟหกฟหกฟหกหกฟหกฟหกฟหก",
+        "timestamp": 1729431070804
+      },
+      {
+        "id": "5",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 692",
+        "action": "Action 692",
+        "due": "2024-10-20T13:45:17.519Z",
+        "pic": "PIC 692",
+        "timestamp": 1729431917519
+      },
+      {
+        "id": "6",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 153",
+        "action": "Action 153",
+        "due": "2024-10-20T13:50:48.798Z",
+        "pic": "PIC 153",
+        "timestamp": 1729432248798
+      },
+      {
+        "id": "7",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 862",
+        "action": "Action 862",
+        "due": "2024-10-22T16:49:17.237Z",
+        "pic": "PIC 862",
+        "timestamp": 1729615757237
+      },
+      {
+        "id": "8",
+        "lineId": "1",
+        "modelId": "1",
+        "lossItem": "Loss Item 540",
+        "action": "Action 540",
+        "due": "2024-10-22T16:59:40.721Z",
+        "pic": "PIC 540",
+        "timestamp": 1729616380721
+      },
+      {
+        "id": "NaN",
+        "lineId": "Line-1729672474750",
+        "modelId": "c1729672526663",
+        "lossItem": "Loss Item 632",
+        "action": "Action 632",
+        "due": "2024-10-23T10:26:35.996Z",
+        "pic": "PIC 632",
+        "timestamp": 1729679195996
+      }
+    ],
+    "tool-life": [
+      {
+        "id": "1",
+        "lineId": "1",
+        "partId": "1",
+        "toolLife": 120,
+        "usages": [
+          {
+            "usage": 30,
+            "timestamp": 1729669276287
+          },
+          {
+            "usage": 14,
+            "timestamp": 1729669468607
+          },
+          {
+            "usage": 50,
+            "timestamp": 1729669516247
+          },
+          {
+            "usage": 30,
+            "timestamp": 1729669516247
+          },
+          {
+            "usage": 47,
+            "timestamp": 1729064906000
+          },
+          {
+            "usage": 16,
+            "timestamp": 1728978506000
+          },
+          {
+            "usage": 89,
+            "timestamp": 1729669706947
+          },
+          {
+            "usage": 30,
+            "timestamp": 1729671259434
+          },
+          {
+            "usage": 30,
+            "timestamp": 1729679841760
+          },
+          {
+            "usage": 40,
+            "timestamp": 1729679841760
+          }
+        ]
+      }
+    ],
+    "tool-life-improve-logs": [
+      {
+        "id": "2",
+        "lineId": "1",
+        "partId": "1",
+        "dimensionId": "1",
+        "item": "Item 626",
+        "date": "2024-10-22T17:53:22.306Z",
+        "pic": "PIC 626",
+        "timestamp": 1729619602306
+      },
+      {
+        "id": "2",
+        "lineId": "1",
+        "partId": "1",
+        "dimensionId": "2",
+        "item": "Item 270",
+        "date": "2024-10-22T17:53:34.261Z",
+        "pic": "PIC 270",
+        "timestamp": 1729619614261
+      },
+      {
+        "id": "3",
+        "lineId": "1",
+        "partId": "1",
+        "dimensionId": "1",
+        "item": "Item 471",
+        "date": "2024-10-23T06:39:16.054Z",
+        "pic": "PIC 471",
+        "timestamp": 1729665556054
+      },
+      {
+        "id": "4",
+        "partId": "1",
+        "dimensionId": "1",
+        "item": "test item 1",
+        "date": "2024-10-23T10:36:35.295Z",
+        "pic": "bird",
+        "timestamp": 1729679795295
+      }
+    ],
+    "tool-life-summary-logs": [
+      {
+        "id": "78872",
+        "notes": "Note of abcde",
+        "lineId": "1",
+        "partId": "1",
+        "dimensionId": "1",
+        "timestamp": 1729678871857
+      },
+      {
+        "id": "2",
+        "notes": "Note of 12345",
+        "lineId": "1",
+        "partId": "1",
+        "dimensionId": "2",
+        "timestamp": 1729679021080
       }
     ]
   }
